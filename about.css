@@ -298,9 +298,9 @@ body{
   display: flex;
   width: 100vw;
   height: 20vh;
-  /* background-color: lightblue; */
   justify-content: center;
   align-items: center;
+  /* background-color: lightblue; */
 }
 .logo-name h1{
   font-family: "Cherish", cursive;
@@ -322,9 +322,10 @@ body{
   display: flex;
   width: 25vw;
   height: 10vh;
-  /* background-color: yellow; */
   justify-content: space-evenly;
   align-items: center;
+  /* background-color: yellow; */
+  
 }
 
 .socials a{
@@ -341,9 +342,10 @@ body{
   display: flex;
   width: 35vw;
   height: 5vh;
-  /* background-color: yellow; */
   justify-content:center;
   align-items: center;
+  /* background-color: yellow; */
+  
 }
 .location-address:hover{
   color: black;
