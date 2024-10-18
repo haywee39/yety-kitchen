@@ -338,11 +338,9 @@ textarea{
   display: flex;
   justify-content: center;
   align-items: center;
-  /* text-align: center; */
   width: 100vw;
   height: 16vh; 
   background-color: black;
-  /* margin-bottom: 10vh; */
 }
 
 #cont-bar a{
