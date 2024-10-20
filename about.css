@@ -231,41 +231,47 @@ body{
 /* <!-- START- CUSTOMERS TESTIMONY BEGINS HERE -->CLIENT LIST */
 #client-container{
   padding-top: 30px;
-  height: 75vh;
+  height: 90vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: white;
-  background-color: black;
+  
+}
+
+#client-container img{
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
 }
 
 .heady{
+  position: absolute;
   width: 50vw;
-  height: 40vh;
+  height: 85vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background-color: blue; */
 }
 
 .heady-title{
   font-family: fantasy;
   font-size: 35px;
-  /* color: rgb(213,0,0); */
+  color: rgb(213,0,0);
 }
 .line{
   width: 100px;
   height: 4px;
-  background-color: white;
+  background-color: rgb(167,167,167);
 }
 
 .heady-desc{
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     font-size: 18px;
-
+    color: rgb(167,167,167);
 }
 
 #carouselExampleInterval{
@@ -280,6 +286,13 @@ body{
   text-align: center;
   align-items: center; 
   justify-content: center;
+  color: rgb(167,167,167);
+}
+#client-list h3{
+  font-family: fantasy;
+  font-size: 18px;
+  color: rgb(213,0,0);
+  text-shadow: none;
 }
 /* <!-- END- CUSTOMERS TESTIMONY BEGINS HERE --> */
 
@@ -347,7 +360,12 @@ body{
   /* background-color: yellow; */
   
 }
-.location-address:hover{
+
+.location-address a{
+  text-decoration: none;
+  color: white;
+}
+.location-address a:hover{
   color: black;
 }
 

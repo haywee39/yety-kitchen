@@ -300,7 +300,12 @@ body{
   /* background-color: yellow; */
   
 }
-.location-address:hover{
+
+.location-address a{
+  text-decoration: none;
+  color: white;
+}
+.location-address a:hover{
   color: black;
 }
 

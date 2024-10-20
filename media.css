@@ -1,0 +1,184 @@
+/* Base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    color: white;
+}
+
+/* Media query for all screen sizes */
+@media (max-width: 1200px) {
+    .navbar {
+        font-size: 16px;
+        padding-right: 40px;
+    }
+
+    .navbar-brand img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .animated-text {
+        width: 80%;
+        font-size: 80px;
+    }
+
+    .menu-btn {
+        width: 150px;
+        height: 50px;
+        margin-left: 30%;
+        font-size: 18px;
+    }
+
+    .one .best {
+        font-size: 40px;
+    }
+
+    .one .tasty {
+        margin-left: 50px;
+        font-size: 30px;
+    }
+
+    #best-offer img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .submenu-img img {
+        width: 240px;
+    }
+
+    .logo-name h1 {
+        font-size: 40px;
+    }
+
+    .logo-name img {
+        width: 120px;
+        height: 120px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
+/* Smaller screens */
+@media (max-width: 768px) {
+    .navbar {
+        font-size: 14px;
+        padding-right: 20px;
+    }
+
+    .navbar-brand img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .animated-text {
+        width: 90%;
+        font-size: 50px;
+        transform: translateX(5%);
+    }
+
+    .menu-btn {
+        width: 120px;
+        height: 40px;
+        margin-left: 20%;
+        font-size: 16px;
+    }
+
+    .one .best {
+        font-size: 30px;
+    }
+
+    .one .tasty {
+        margin-left: 0;
+        font-size: 24px;
+    }
+
+    #best-offer img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .submenu-img img {
+        width: 200px;
+    }
+
+    .logo-name h1 {
+        font-size: 30px;
+    }
+
+    .logo-name img {
+        width: 100px;
+        height: 100px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+    .navbar {
+        font-size: 12px;
+        padding-right: 10px;
+    }
+
+    .navbar-brand img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .animated-text {
+        width: 95%;
+        font-size: 30px;
+        transform: translateX(0%);
+    }
+
+    .menu-btn {
+        width: 100px;
+        height: 35px;
+        margin-left: 10%;
+        font-size: 14px;
+    }
+
+    .one .best {
+        font-size: 20px;
+    }
+
+    .one .tasty {
+        font-size: 18px;
+    }
+
+    #best-offer img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .submenu-img img {
+        width: 160px;
+    }
+
+    .logo-name h1 {
+        font-size: 25px;
+    }
+
+    .logo-name img {
+        width: 80px;
+        height: 80px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+}
