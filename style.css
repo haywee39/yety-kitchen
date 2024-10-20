@@ -86,8 +86,10 @@ body{
 
 
 #home{
+  padding-top: 10vh;
   display: flex;
-  width: 100%;
+  flex-direction: column;
+  width: 100vw;
   height: 100vh; 
   color: white;
   justify-content: center;
@@ -98,48 +100,22 @@ body{
   background-position: center center;
 }
 
- 
-
-/* Animation for the text "Yety Kitchen" */
-@keyframes dropLetter {
-  0% {
-      transform: translateY(-100%);
-      opacity: 0;
-  }
-  50% {
-      transform: translateY(0);
-      opacity: 1;
-  }
-  100% {
-      transform: translateY(100%);
-      opacity: 0;
-  }
-}
-
- /* Animation for the text "Yety Kitchen" */
- @keyframes dropLetter {
-  0% {
-      transform: translateY(-100%);
-      opacity: 0;
-  }
-  100% {
-      transform: translateY(0);
-      opacity: 1;
-  }
-}
-
 .animated-text {
-  width: 60%;
-  height: 50vh;
-  transform: translateX(30%);
-  font-family: "Cherish", cursive;
-  font-size: 105px;
-  font-weight: bold;
-  color: white;
+  display: flex;
+  width: 70vw;
+  height: 15vh;
+  align-items: center;
+  justify-content: center;
+  /* background-color: black; */
 }
 
-.animated-text span {
+.animated-text span{
   display: inline-block;
+  font-family: "Cherish", cursive;
+  font-size: 110px;
+  letter-spacing: 15px;
+  text-shadow: 1px 1px 1px rgb(213,0,0);
+  color: white;
   animation: dropLetter 2s forwards;
 }
 
@@ -191,13 +167,54 @@ body{
   animation-delay: 1.2s;
 }
 
-.animated-text p{
+/* Animation for the text "Yety Kitchen" */
+@keyframes dropLetter {
+  0% {
+      transform: translateY(-100%);
+      opacity: 0;
+  }
+  50% {
+      transform: translateY(0);
+      opacity: 1;
+  }
+  100% {
+      transform: translateY(100%);
+      opacity: 0;
+  }
+}
+
+ /* Animation for the text "Yety Kitchen" */
+ @keyframes dropLetter {
+  0% {
+      transform: translateY(-100%);
+      opacity: 0;
+  }
+  100% {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+
+.short-intro{
+  margin-top: 5vh;
+  display: flex;
+  width: 50vw;
+  height: 35vh;
+  align-items: center;
+  justify-content: center;
+  /* background-color: orange; */
+}
+.short-intro p{
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
-  font-weight: light;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgb(213,0,0);
 }
 
 .menu-btn{
+  margin-top: 10px;
   display: flex;
   font-family: fantasy;
   width: 200px;
@@ -208,7 +225,6 @@ body{
   border-radius: 10px;
   align-items: center;
   justify-content: center;
-  margin-left: 40%;
   outline: 2px solid white;
 }
 
@@ -221,6 +237,7 @@ body{
 .menu-btn{
   position: relative;
   overflow: hidden;
+  z-index: 1;
 }
 
 .menu-btn::before {
@@ -239,6 +256,7 @@ body{
 .menu-btn:hover::before {
   left: 0;
 }
+
 
 #best-offer{
   display: flex;
@@ -362,7 +380,7 @@ body{
 #service{
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 100vw;
   height: auto; 
   justify-content: center;
   align-items: center;
@@ -373,8 +391,9 @@ body{
   margin-top: 5vh;
   display: flex;
   width: 100vw;
-  height: 27vh;
+  height: 45vh;
   justify-content: center;
+  /* background-color: orange; */
 }
 
 .service-head{

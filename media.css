@@ -1,0 +1,59 @@
+@media (width < 912px){
+
+      #navbarNavDropdown{
+        background: rgb(16,16,17);
+      }
+
+      #home{
+        padding-top: 7vh;
+        display: flex;
+        width: 100%;
+        height: 60vh;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .animated-text {
+        width: 70vw;
+        height: 10vh;
+        background-color: black;
+      }
+
+      .animated-text span{
+        font-size: 60px;
+        letter-spacing: 6px;
+      }
+
+      .short-intro{
+        /* margin-top: 3vh; */
+        width: 72vw;
+        height: 22vh;
+        background-color: orange;
+      }
+
+      .short-intro p{
+        font-size: 17px;
+      }
+
+      .menu-btn{
+        /* margin-top: 1vh; */
+        width: 180px;
+        height: 50px;
+        font-size: 18px;
+        letter-spacing: 2px;
+        border-radius: 7px;
+      }
+/* START: SERVICE HERE */
+      .service-head{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 100%;
+        align-items: center;
+        /* background-color: yellow; */
+      }
+      
+
+      
+    
+}
