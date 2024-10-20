@@ -362,6 +362,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   width: 100vw;
   height: 15vh; 
   background-color: rgb(213,0,0);
@@ -370,7 +371,17 @@ body{
 #just-yety h5{
   font-family: "Cherish", cursive;
   text-align: center;
+  align-items: center;
   font-size: 55px;
+  letter-spacing: 6px;
+  word-spacing: 10px;
+}
+
+#just-yety .yety-second{
+  visibility: hidden;
+  font-family: "Cherish", cursive;
+  text-align: center;
+  font-size: 35px;
   letter-spacing: 6px;
   word-spacing: 10px;
 }

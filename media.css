@@ -105,7 +105,11 @@
     }
 
     #just-yety h5{
+      visibility: hidden;
       font-size: 35px;
+    }
+    #just-yety .yety-second{
+      visibility: visible;
     }
 
     #service{
