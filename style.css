@@ -18,7 +18,7 @@ body{
   position: fixed;
   font-family: fantasy;
   height: 13vh;
-  width: 100%;
+  width: 100vw;
   background: rgb(16,16,17);
   opacity: 0.9;
   align-items: right; 
